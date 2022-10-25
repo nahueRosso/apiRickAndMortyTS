@@ -1,0 +1,42 @@
+.loading { 
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 3em;
+}
+
+.firstPoint{
+    animation-name: firstPoint;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+}
+.secondPoint{
+    animation-name: secondPoint;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+}
+.thirdPoint{
+    animation-name: thirdPoint;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes firstPoint {
+    0%{opacity: 0;}
+    25%{opacity: 0;}
+    26%{opacity: 1;}
+}
+
+@keyframes secondPoint {
+    0%{opacity: 0;}
+    50%{opacity: 0;}
+    51%{opacity: 1;}
+}
+
+@keyframes thirdPoint {
+    0%{opacity: 0;}
+    75%{opacity: 0;}
+    76%{opacity: 1;}
+}

@@ -1,0 +1,45 @@
+a{
+    text-decoration: none;
+    color: aquamarine;
+    font-size: 2em;
+}
+a img{
+    width: 2em;
+}
+
+ul {padding-top: .8em;
+    width: 7em;
+    padding-left: 1em;
+    height: 5em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    position: fixed;
+    cursor: pointer;
+    transition: 500ms;
+}
+
+.icon1{
+    z-index: 100;
+}
+
+ul .icon2,.icon3,.icon4{
+    display: none;
+}
+
+ul:hover{
+    padding-top: 0em;
+    height: 100vh;
+    justify-content: space-evenly;
+    width: 8em;
+}
+
+ul:hover a {
+    font-size: 4em;
+}
+
+ul:hover img{
+    display: inline-block;
+}

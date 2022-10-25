@@ -1,0 +1,174 @@
+body {
+    background-color: #ccc;
+}
+h1 {
+  background-color: #282952;
+  text-align: center;
+  color: #ccc;
+  height: 3em;
+  margin: 0em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.cards {
+  min-height: calc(-11em - 4.0975em + 100vh);
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: columns;
+  width: 100%;
+  justify-content: space-around;
+}
+
+
+
+.containerCard {
+  width: 32em;
+  margin: 0.4em;
+  height: 13em;
+  background-color: #222;
+  display: flex;
+  border-radius: 1em;
+}
+.containerImagen {
+  width: 13em;
+  height: 13em;
+}
+.containerImagen img {
+  border-radius: 1em 0em 0em 1em;
+  width: 13em;
+  height: 13em;
+}
+
+.containerTexto {
+  display: flex;
+flex-direction: column;
+justify-content: space-evenly;
+  margin-left: 1em;
+  height: 13em;
+  color: #bbb;
+}
+.containerTexto h2 {
+    margin-right: 0.3em;
+    margin-top: -1em;
+    color: #fff;
+}
+.containerTexto h3 {
+    font-size: 1em;
+    color: #ddd;
+}
+.containerTexto h4 {
+   font-size: 1em;color: #aaa;
+}
+
+
+
+.firsth3 {
+    display: flex;
+    align-items: center;
+}
+
+.circle{
+    clip-path: circle(50% at 50% 50%);
+    width: .7em;height: .7em;
+    background-color: red;
+    margin: .4em;
+    margin-left: 0em;
+}
+
+.navbar {
+  margin: 0em;
+  height: 3em;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 100%;
+  background-color: #ccc;
+}
+
+.listStatus {
+  display: none;
+}
+.listSpecies {
+  display: none;
+}
+
+.deployed {
+  border-radius: 1em;
+  width: 30em;
+  text-align: center;
+  color: #ccc;
+}
+
+.Species {
+  height: 2.4em;
+  background-color: #4f50af;
+}
+
+.Status {
+  height: 2.4em;
+  background-color: #4f50af;
+}
+
+.search {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.search input {
+    padding-left: 1em;
+  border-radius: 1em;
+  width: 90%;
+  height: 2em;
+}
+
+.navbar.activeStatus .listStatus {
+  background-color: green;
+  display: block;
+}
+
+.navbar.activeSpecies .listStatus {
+  display: block;
+}
+
+.selecPages {
+  padding: 0.5em;
+  margin-top: 2em;
+  background-color: #282952;
+  height: 3em;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  border-top: 0.1em solid #111;
+}
+
+.selecPages input {
+  width: 3em;
+  height: 3em;
+  text-align: center;
+  background-color: #0000;
+  border: none;
+  outline: none;
+  font-size: 1.3em;
+  color: #ccc;
+}
+
+
+
+
+
+::-webkit-scrollbar {
+    background-color: #748391;
+    width: .3em;
+    height: 0em;
+}
+
+::-webkit-scrollbar-thumb{
+background-color: #282952;
+height: 40em;
+}
